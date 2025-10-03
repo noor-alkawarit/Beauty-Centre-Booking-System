@@ -1,0 +1,73 @@
+<!doctype html>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Beauty Centre — Home</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<a class="logo" href="index.html">Beauty<span>Centre</span></a>
+<nav class="main-nav">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="booking.html">Book Now</a>
+<a href="contact.html" class="cta">Contact</a>
+</nav>
+<button class="nav-toggle">☰</button>
+</div>
+</header>
+
+
+<main>
+<section class="hero">
+<div class="container hero-content">
+<h1>Relax, Refresh, Rejuvenate</h1>
+<p>Welcome to Beauty Centre — your destination for wellness and beauty treatments.</p>
+<a href="booking.html" class="btn">Book an Appointment</a>
+</div>
+</section>
+
+
+<section class="features container">
+<h2>Why Choose Us?</h2>
+<div class="feature-list">
+<article class="feature">
+<h3>Expert Staff</h3>
+<p>Our trained professionals ensure you receive the best treatments.</p>
+</article>
+<article class="feature">
+<h3>Premium Products</h3>
+<p>We use high-quality, skin-friendly products for every service.</p>
+</article>
+<article class="feature">
+<h3>Relaxing Atmosphere</h3>
+<p>A calm and inviting space designed to help you unwind.</p>
+</article>
+</div>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<p>&copy; <span id="year"></span> Beauty Centre. All rights reserved.</p>
+<nav class="footer-nav">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="booking.html">Book Now</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</footer>
+
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+const toggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.main-nav');
+toggle.addEventListener('click', () => nav.classList.toggle('open'));
+</script>
+</body>
+</html>
