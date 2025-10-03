@@ -2,4 +2,6 @@
 The Beauty Centre Booking System is a web-based application designed to simplify appointment scheduling and management for beauty salons, spas, and wellness centres. It allows customers to book services online and enables businesses to manage their schedules efficiently.
 
 Deployment: https://noor-alkawarit.github.io/Beauty-Centre-Booking-System/
-GitHub: 
+
+
+GitHub: https://github.com/noor-alkawarit/Beauty-Centre-Booking-System.git
